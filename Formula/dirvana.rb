@@ -1,8 +1,8 @@
 class Dirvana < Formula
   desc "Intelligent directory navigation and command augmentation tool for Zsh"
   homepage "https://github.com/jlkendrick/dirvana"
-  url "https://github.com/jlkendrick/dirvana/archive/refs/tags/v1.1.7.tar.gz"
-  sha256 "2eeb6f3906316ce57ede0bfe6f9ec12dd58215aea5c030edc3e5db2c9f782590"
+  url "https://github.com/jlkendrick/dirvana/archive/refs/tags/v1.1.8.tar.gz"
+  sha256 "49e597d7b6915cb0f868c40c2b567835598f98825cd2d1021badac3ff073a7c4"
   license "MIT"
 
   depends_on "cmake" => :build
@@ -23,7 +23,7 @@ class Dirvana < Formula
     <<~EOS
       Run the following to finish setup:
 
-        dv init
+        dv-binary init
 
       Then reload your shell:
 
