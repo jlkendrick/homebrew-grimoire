@@ -1,8 +1,8 @@
 class Grimoire < Formula
   desc "A declarative, language-agnostic execution framework"
   homepage "https://jlkendrick.github.io/grimoire"
-  url "https://github.com/jlkendrick/grimoire/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "d72793aa832e34261cbd3fc135bd077ac5ff573d693b7527140cdc688bbb99c8"
+  url "https://github.com/jlkendrick/grimoire/archive/refs/tags/v0.2.1.tar.gz"
+  sha256 "0d826f8e2aad3b99af9511a8fc00df9a18a940522c3eacda85fd3836e58d8e29"
   license "MIT"
 
   depends_on "go" => :build
